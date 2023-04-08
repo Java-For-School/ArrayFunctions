@@ -6,11 +6,11 @@ public class Main {
       array[i] = i;
     }
 
-    printArray(array, 10);
+    printArray(array);
   }
-  public static void printArray(int[] array, int size) { 
+  public static void printArray(int[] array) { 
     System.out.print("[");
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < array.length; i++) {
       System.out.print(array[i] + ",");
     }
     System.out.println("]");
